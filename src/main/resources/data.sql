@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS test_entity;
+
+CREATE TABLE test_entity (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  test_enum VARCHAR(250) NOT NULL,
+);
